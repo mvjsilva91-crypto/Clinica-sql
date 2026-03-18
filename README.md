@@ -1,6 +1,6 @@
 # 🏥 Banco de Dados - Clínica
 
-Projeto de banco de dados relacional desenvolvido para simular o funcionamento de uma clínica médica.
+Banco de dados relacional para gerenciamento de uma clínica médica, incluindo controle de pacientes, médicos e consultas.
 
 ---
 
