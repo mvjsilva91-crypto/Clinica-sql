@@ -96,3 +96,9 @@ FROM Paciente P
 JOIN Consulta C ON P.codp = C.codp
 JOIN Medico M ON C.codm = M.codm 
 WHERE M.especialidade = 'ortopedia';
+
+-- Quantas consultas por médico
+SELECT codm, COUNT(*) FROM Consulta GROUP BY codm;
+
+-- Pacientes mais frequentes
+SELECT codp, COUNT(*) FROM Consulta GROUP BY codp ORDER BY COUNT(*) DESC;
